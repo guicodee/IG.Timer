@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# ![image](https://github.com/guicodee/IG.Timer/assets/145567811/70975645-c02a-45e3-ba59-2b8b9d7488e9) Ignite Timer
+<br />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/guicodee/IG.Timer/assets/145567811/7c15eee7-a0f6-487d-a092-969a5de6277b)
 
-Currently, two official plugins are available:
+<br />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# ✨ Tecnologias
 
-## Expanding the ESLint configuration
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+- React
+- Vite
+- React Hook Form
+- React Router DOM
+- Immer
+- TypeScript
+- Styled Components
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<br />
 
-- Configure the top-level `parserOptions` property like this:
+# 💻 Projeto
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+O Ignite Timer é uma aplicação para utilização da tecnica pomodoro, incluindo funcionalidades como salvamento de dados locais, utilização de conceitos como os reducers no react, dentre outras.
+
+<br />
+
+**Objetivos**: os principais objetivos desta aplicação foi treinar a atilização das seguintes ferramentas/tecnologias:
+
+- Lidar com datas e horarios através da biblioteca date-fns
+- Utilização de formulários com React Hook Form
+- Aplicação de temas dark e light utilizando o Styled Components
+- Uso do hook useReducer do React para centralizar as alterações em um estado complexo
+
+<br />
+
+# 🚀 Como executar
+
 ```
+  # Clone o repositório
+  git clone git@github.com:guicodee/IG.Timer.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  # Instalação de dependências
+  $ npm install
+
+  # Execução da aplicação
+  $ npm run dev
+```
